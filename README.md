@@ -4,7 +4,7 @@ This slurm script allows one to submit a slurm job using a python script.
 A python file and two yaml files need to be provided :
 - The python script to run (`script.py`).
 - The config file to use : provides application specific parameters (`config.yml`).
-- The sbatch config file : provides slurm parameters (`sbatch.yml`).\\
+- The sbatch config file : provides slurm parameters (`sbatch.yml`).\n
 
 On top of that, either conda or pip package management can be used. 
 To use a conda virtual environment named `venv`, one needs to provide `conda` argument followed by `--env venv` to specify the environment. 
@@ -13,6 +13,8 @@ To use pip with a virtual environnement named, one needs to provide `pip` argume
 ```
 python code/slurm.py script.py config.yml sbatch.py conda venv
 ```
+
+## Use an alias
 
 To create an alias run the following code :
 

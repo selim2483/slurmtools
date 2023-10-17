@@ -16,7 +16,7 @@ python code/slurm.py script.py config.yml sbatch.py conda venv
 
 ## Use an alias
 
-To create an alias run the following code :
+To create an alias run the following line or add it to your `.bashrc` file :
 
 ```
 alias slurm="python path/to/code/slurm.py"
@@ -25,5 +25,5 @@ alias slurm="python path/to/code/slurm.py"
 Then it is possible to submit slurm jobs using the following command line :
 
 ```
-slurm script.py config.yml sbatch.py conda venv
+slurm script.py config.yml sbatch.py conda --env venv
 ```

@@ -1,5 +1,3 @@
-#! /stck/sollivie/miniconda3/bin/python
-
 import os
 import subprocess
 import argparse
